@@ -1,0 +1,28 @@
+{
+  "name": "todo-demo-api",
+  "version": "0.1.0",
+  "description": "API for Rookout's tutorial demo app",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint index.js src",
+    "start": "npm install && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mickael Alliel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-winston": "^4.1.0",
+    "lodash": "^4.17.21",
+    "pug": "^3.0.1",
+    "rookout": "^0.34.0",
+    "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.11.0"
+  }
+}
